@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Base Chat</title>
+
+	<link rel="stylesheet" type="text/css" href="chat_frontend.css">
+</head>
+<body>
+<div id="messages" class="messages">Chat Message Here</div>
+	<div class="actions">
+		<input type="text" id="input" class="input" placeholder="Enter Message..." autofocus />
+		<button id="start_btn" onclick="trigger_newChat();" class="btn">Start New Chat</button>
+		<button id="accept_btn" class="btn" onclick="trigger_invitedChat();">Accept Invite</button>
+		<span id="invite_id" class="invite_id">Your Invite ID will appear here: <input id="invite_id_1" type="text" /></span>
+	</div>
+</body>
+<script type="text/javascript" src="chat_frontend.js"></script>
+</html>

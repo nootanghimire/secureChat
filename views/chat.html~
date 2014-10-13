@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Encrypted Chat</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="triggers">
+	<!-- contains trigger buttons:
+	     1: trigger_chat();
+	     2: trigger_recieve_chat();
+	  -->
+      </div>
+      <div id="textContainer">
+	<!-- -->
+      </div>
+
+      <input id="textInput" name="textInput" type="text" />
+    </div>
+  </body>
+
+  <script type="text/javascript" src="/chat_frontend.js"></script>
+</html>
